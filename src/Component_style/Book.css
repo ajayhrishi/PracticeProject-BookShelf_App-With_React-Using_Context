@@ -1,0 +1,43 @@
+.Book{
+    left:100px; 
+
+    width: 150px;
+    height: 200px;
+    background-color: rgb(212, 207, 200);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 20px;
+    float: left;
+    flex-direction: column;
+    
+}
+
+.IdBox{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(194, 194, 164);
+    border: 2px  rgb(182, 182, 142);;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+.title{
+
+    font-family: "Comic Sans MS";
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.TopLine{
+    display: flex;
+}
+
+.Icons{
+
+    display: flex;
+} 
+
+
+/*=============================================*/
+

@@ -1,0 +1,55 @@
+
+GET http://localhost:3001/books HTTP/1.1 
+Content-Type: application/json
+###
+DELETE  http://localhost:3001/books/12 HTTP/1.1
+Content-Type: application/json
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "Now we should move to the next part"}
+###
+PUT http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
+{"title": "Let me see if that changes the value"}
+
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "The Story of Ajay Hrishi V"}
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "You have done a great Job"}
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "We also have to learn the syntax"}
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "Once it's done, we can try connecting it to the current application we have."}
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "This is the first 2nd step towards making the chat buddy app."}
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "We came so far and we can go so much more"}
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{"title": "You are going to be so happy with the work you are doing."}
+###
+
+

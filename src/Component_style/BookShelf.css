@@ -1,0 +1,10 @@
+.BookShelf{
+    margin-top: 300px;
+    margin-block: 3px;
+    position: relative ;
+    flex-wrap: wrap;
+}
+
+.image{
+    align-items: center;
+}
